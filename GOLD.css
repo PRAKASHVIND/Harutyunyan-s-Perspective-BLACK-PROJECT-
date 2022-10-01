@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;  
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#part1{
+    height: 100vh;
+    width: 100%;
+    background-color:#222224;
+    display: flex;
+}
+#part1-left{
+    width: 50%;
+    height: 100vh;
+    background: radial-gradient(to bottom,#242524,#535653);
+    position: relative;
+}
+#part1-right{
+    position: relative;
+    width: 45%;
+    height: 100vh;
+    background: radial-gradient(to bottom,#353635,#616461);
+}
+#part1-right-nav{
+    height: 100vh;
+    width: 5%;
+    background: radial-gradient(to bottom,#353635,#616461);
+    position: relative;
+}
+#part2{
+    height: 100vh;
+    width: 100%;
+    background-color:#242524;
+}
+#part1-nav{
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color:#222224;
+}
+#part1-nav-text{
+    display: flex;
+    font-size: 15px;
+    gap: 30px;
+    color: white;
+}
+span{
+margin-left: 120px;
+color: #C29959;
+}
+.logo{
+    margin-left: 20px;
+    font-size: 60px;
+    color: #C29959;
+}
+#part1-left h1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 120px;
+color: #C29959;
+font-family: gilroy;
+}
+#number{
+    position: absolute;
+top: 75%;
+left: 20%;
+transform: translate(-50%,-50%);
+font-size: 12px;
+color: #fdfdfd;
+font-family: gilroy;
+}
+#part1-right img{
+    position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+height: 100%;
+    
+}
+#part1-right h1{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    font-family: gilroy;
+    color: #C29959;
+}
+#right-nav-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    color: white;
+}
+#right-box-text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#right-box-text h1{
+    font-size: 20px;
+}
+.menu{
+    font-size: 30px;
+}
+.bottom{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 90px;
+    color: #C29959;
+}
+.search{
+    color: #fdfdfd;
+    position: absolute;
+    font-size: 32px;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#part2-cards{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    background-color:#242524;
+}
+#part2-card1{
+    margin-left: 40px;
+    height: 100%;
+    width: 20%;
+    background-color:#242524;
+}
+#part2-photo{
+    
+    height: 90%;
+    width: 100%;
+}
+#part2-photo img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#part2-card1 h1{
+    margin-left: 60%;
+    color: white;
+    font-family: gilroy;
+    font-size: 25px;
+}
+#part2-text{
+    margin-top: 5%;
+    height: 15%;
+    width: 100%;
+    background-color:#242524;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+#part2-text p{
+    font-size: 13px;
+    color: white;
+    margin-left: 10%;
+}
+.searched{
+    margin-right:2% ;
+    font-size:30px;
+    color: white;
+}
+#part3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#part3-left{
+    height: 100vh;
+    width: 50%;
+    background-color: #242524;
+    position: relative;
+}
+#part3-right{
+   position: relative;
+    height: 100vh;
+    width: 50%;
+    background-color: #242524;
+}
+#part3-text{
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 80%;
+    width: 100%;
+}
+#part3-text h1{
+    font-size: 90px;
+    font-family: gilroy;
+    color: #C29959;
+}
+#part3-text p{
+    margin-top: 20px;
+    font-size: 15px;
+    word-spacing: 2px;
+    color: white;
+}
+#top{
+    margin-top: 30px;
+}
+#part3-text h2{
+    margin-top: 5%;
+    font-size: 280px;
+    background: url(https://i.pinimg.com/474x/6f/95/1f/6f951f622f4bdd117ffbb67aa3633a78.jpg);
+    font-family: gilroy;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#part3-left img{
+    height: 140%;
+    position: absolute;
+    top: -40%;
+}
+#part1-nav-text .menu{
+    display: none;
+    font-size: 30px;
+}
+
+ @media(max-width: 500px){
+ 
+    #part1-left h1{
+        position: absolute;
+        top: 65%;
+        left: 86%;
+        transform: translate(-50%,-50%);
+        font-size: 60px;
+        }
+    #part1-right img{
+        height: 80%;
+        position: absolute;
+        left: 0%;
+        top:35%;
+    }
+    #part1-nav{
+        width: 100%;
+    }
+    #part1-nav-text p{
+        display: none;
+    }
+    #part1-nav-text .menu{
+        display: block;
+        position: absolute;
+       align-items: center;
+       margin-left: 15rem;
+    }
+    #part1-right-nav{
+        width: 50%;
+        
+    }
+ #part1-right-nav{ 
+    width: 10%;
+   }
+   #right-nav-box{
+    width: 100%;
+    height: 30%;
+   }
+   #right-box-text .menu{
+    font-size: 25px;
+   }
+   #right-box-text h1{
+    font-size: 12px;
+   }
+   #right-nav-box .bottom{
+    font-size: 30px;
+   }
+   #part1-right-nav .search{
+    display: none;
+   }
+   #part1-left #number{
+    font-size: 12px;
+    left: 50%;
+   }
+   #part1-right h1{
+    left: 37%;
+    font-size: 65px;
+   }
+   #part2-cards{
+    width: 100%;
+    display: block;
+   }
+
+
+   #part2-card1{
+    height: 100%;
+    width: 100%;
+    background-color:#242524;
+}
+#part2-cards{
+    height: 60%;
+    width: 90%;
+    display: block;
+    gap: 40px;
+    background-color:#242524;
+}
+#part2{
+height: 100%;
+}
+#part2-photo{
+    width: 100%;
+
+}
+#part3{
+    width: 100%;
+    height: 100%;
+}
+#part3-right{
+    width: 100%;
+}
+#part3-left img{
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    z-index: 99999999999999;
+}
+
+#part3-text{
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#part3-text h2{
+    font-size: 130px;
+    margin-top: 90px;
+    position: absolute;
+   left: -50%;
+}
+#part2-text .searched{
+    display: none;
+}
+} 
