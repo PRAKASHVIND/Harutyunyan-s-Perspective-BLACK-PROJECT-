@@ -72,7 +72,7 @@ move.from("#part1-nav-text p,#right-nav-box", {
   .from("#part1-right img", {
     stagger: 0.2,
     opacity: 0,
-    x: 50,
+    x: 80,
     duration: 1,
     ease: "export.easeInOut",
   }, "-=1")
